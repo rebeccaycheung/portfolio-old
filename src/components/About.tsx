@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import { Tile, Heading, SmallSpacing, HeaderStyle } from '../styles/body';
+import { Heading, SmallSpacing, AboutContainer, AboutTile, ContactTile } from '../styles/body';
 import Facts from './Facts';
 import Contact from './Contact';
 
@@ -10,18 +10,18 @@ type AboutProps = {
 
 const About: FunctionComponent<AboutProps> = ({ title, description }) => {
     return (
-        <HeaderStyle>
-            <Tile>
+        <AboutContainer>
+            <AboutTile>
                 <Heading>{ title }</Heading>
                 <SmallSpacing />
                 <div>{ description }</div>
                 <SmallSpacing />
                 <Facts />
-            </Tile>
-            <Tile>
+            </AboutTile>
+            <ContactTile>
                 <Contact title="Contact me" />
-            </Tile>
-        </HeaderStyle>
+            </ContactTile>
+        </AboutContainer>
     )
 }
 

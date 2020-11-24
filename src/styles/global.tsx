@@ -14,7 +14,8 @@ export const GlobalStyles = createGlobalStyle`
     background: #f8f8f8;
     color: #1d1d1d;
     font-family: 'Roboto', 'Arial', 'san-serif';
-    font-size: 14px;
+    font-size: 12px;
+    width: 1000px;
   }
 
   h1 {

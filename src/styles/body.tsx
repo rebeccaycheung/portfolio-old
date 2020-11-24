@@ -5,12 +5,12 @@ export const Spacing = styled.div`
 `
 
 export const SmallSpacing = styled.div`
-    padding: 0.5rem;
+    padding: 0.3rem;
 `
 
 export const HeaderStyle = styled.body`
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-end;
 `
 
@@ -24,6 +24,7 @@ export const NameTag = styled.h1`
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    margin: 0rem;
 `
 
 export const Toggle = styled.body`
@@ -32,12 +33,22 @@ export const Toggle = styled.body`
     padding: 1rem;
     border-radius: 10px;
     width: 150px;
+    margin-right: 0rem;
 `
 
 export const Tile = styled.body`
     background-color: #ffffff;
     padding: 2.5rem;
     border-radius: 10px;
+`
+
+export const AboutTile = styled(Tile)`
+    flex: 2 4 auto;
+    margin-right: 2rem;
+`
+
+export const ContactTile = styled(Tile)`
+    flex: 1 1 0;
 `
 
 export const Heading = styled.h1`
@@ -53,6 +64,12 @@ export const Container = styled.div`
 `
 
 export const FactsContainer = styled(Container)`
-    width: 300px;
+    width: 200px;
     height: 50px;
+`
+
+export const AboutContainer = styled.body`
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
 `
