@@ -1,15 +1,11 @@
 import styled from "styled-components";
 
-export const Spacing = styled.div`
-    padding: 2rem;
-`
+interface SpacingProps {
+    space: number;
+}
 
-export const MediumSpacing = styled.div`
-    padding: 1rem;
-`
-
-export const SmallSpacing = styled.div`
-    padding: 0.3rem;
+export const Spacing = styled.div<SpacingProps>`
+    ${({ space }) => `padding: ${space}rem;`}
 `
 
 export const HeaderStyle = styled.div`
@@ -93,4 +89,34 @@ export const Year = styled.div`
     &:nth-child(1) {
         border-left: 2px solid #707070;
     }
+`
+
+interface TimelineBarProps {
+    width: number;
+    color: string;
+}
+
+export const TimelineBar = styled.div<TimelineBarProps>`
+    ${({ color }) => `background-color: #${color};`}
+    ${({ width }) => `width: ${width}px;`}
+    height: 12px;
+    border-radius: 20px;
+`
+
+export const TimelineDescription = styled.div`
+    text-align: left;
+`
+
+interface MarginProps {
+    marginLeft?: number;
+    marginRight?: number;
+    marginTop?: number;
+    marginBottom?: number;
+}
+
+export const Margin = styled.div<MarginProps>`
+    ${({ marginTop }) => marginTop ? `margin-top:${marginTop}px` : `margin-top:0px`};
+    ${({ marginLeft }) => marginLeft ? `margin-left:${marginLeft}px` : `margin-left:0px`};
+    ${({ marginRight }) => marginRight ? `margin-right:${marginRight}px` : `margin-right:0px`};
+    ${({ marginBottom }) => marginBottom ? `margin-bottom:${marginBottom}px` : `margin-bottom:0px`};
 `

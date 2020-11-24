@@ -13,11 +13,11 @@ function App() {
       <>
         <GlobalStyles />
         <Header name={"Rebecca Cheung"} buttonText={"Switch to dark mode"} />
-        <Spacing />
+        <Spacing space={2} />
         <About title={"Get to know me"} description={
           "I am passionate about developing software and designing sophisticated user interfaces. Currently, an associate engineer at NAB developing digital lending experiences to our customers. While I am not working, I am cooking or enjoying time with family and friends."
         }/>
-        <Spacing />
+        <Spacing space={2} />
         <Journey title="My journey so far" />
       </>
     </ThemeProvider>

@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import { Heading, SmallSpacing, AboutContainer, AboutTile, ContactTile } from '../styles/body';
+import { Heading, Spacing, AboutContainer, AboutTile, ContactTile } from '../styles/body';
 import Facts from './Facts';
 import Contact from './Contact';
 
@@ -13,9 +13,9 @@ const About: FunctionComponent<AboutProps> = ({ title, description }) => {
         <AboutContainer>
             <AboutTile>
                 <Heading>{ title }</Heading>
-                <SmallSpacing />
+                <Spacing space={0.3} />
                 <div>{ description }</div>
-                <SmallSpacing />
+                <Spacing space={0.3}  />
                 <Facts />
             </AboutTile>
             <ContactTile>

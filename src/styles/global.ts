@@ -24,4 +24,15 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 30px;
     font-weight: 500;
   }
+
+  h3 {
+    margin: 0 auto;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  p {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+  }
 `
