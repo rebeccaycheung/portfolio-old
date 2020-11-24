@@ -4,13 +4,17 @@ export const Spacing = styled.div`
     padding: 2rem;
 `
 
+export const MediumSpacing = styled.div`
+    padding: 1rem;
+`
+
 export const SmallSpacing = styled.div`
     padding: 0.3rem;
 `
 
-export const HeaderStyle = styled.body`
+export const HeaderStyle = styled.div`
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: flex-end;
 `
 
@@ -24,19 +28,18 @@ export const NameTag = styled.h1`
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin: 0rem;
+    margin-left: 0rem;
 `
 
-export const Toggle = styled.body`
+export const Toggle = styled.div`
     text-align: center;
     background-color: #ffffff;
     padding: 1rem;
     border-radius: 10px;
     width: 150px;
-    margin-right: 0rem;
 `
 
-export const Tile = styled.body`
+export const Tile = styled.div`
     background-color: #ffffff;
     padding: 2.5rem;
     border-radius: 10px;
@@ -68,8 +71,26 @@ export const FactsContainer = styled(Container)`
     height: 50px;
 `
 
-export const AboutContainer = styled.body`
+export const AboutContainer = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-items: spacing-between;
     align-items: stretch;
+`
+
+export const JourneyContainer = styled.div`
+    text-align: center;
+`
+
+export const Timeline = styled.div`
+    display: flex;
+    justify-items: center;
+    align-items: center;
+`
+
+export const Year = styled.div`
+    width: 200px;
+    border-right: 2px solid #707070;
+    &:nth-child(1) {
+        border-left: 2px solid #707070;
+    }
 `

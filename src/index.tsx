@@ -4,9 +4,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faAws, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faCode, faBreadSlice, faGraduationCap, faLeaf, faMagic, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faBreadSlice, faGraduationCap, faLeaf, faMagic, faEnvelope, faMoon } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faAws, faCode, faBreadSlice, faGraduationCap, faLeaf, faMagic, faEnvelope, faGithub, faLinkedin)
+library.add(faAws, faCode, faBreadSlice, faGraduationCap, faLeaf, faMagic, faEnvelope, faGithub, faLinkedin, faMoon)
 
 ReactDOM.render(
   <React.StrictMode>
