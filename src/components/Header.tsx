@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import { Toggle } from '../styles/body';
+import { HeaderStyle, NameTag, Toggle } from '../styles/body';
 
 type HeaderProps = {
   name: string,
@@ -8,10 +8,10 @@ type HeaderProps = {
 
 const Header: FunctionComponent<HeaderProps> = ({ name, buttonText }) => {
     return (
-        <>
-            <h1>{ name.toUpperCase() }</h1>
+        <HeaderStyle>
+            <NameTag>{ name.toUpperCase() }</NameTag>
             <Toggle>{ buttonText }</Toggle>
-        </>
+        </HeaderStyle>
     )
 }
 

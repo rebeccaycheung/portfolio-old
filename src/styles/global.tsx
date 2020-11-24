@@ -10,6 +10,7 @@ export const GlobalStyles = createGlobalStyle`
   }
   
   body {
+    margin: 0 auto;
     background: #f8f8f8;
     color: #1d1d1d;
     font-family: 'Roboto', 'Arial', 'san-serif';
@@ -17,6 +18,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   h1 {
+    margin: 0 auto;
     font-size: 30px;
     font-weight: 500;
   }
