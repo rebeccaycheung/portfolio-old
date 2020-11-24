@@ -19,6 +19,7 @@ export const GlobalStyles = createGlobalStyle`
 
   h1 {
     margin: 0 auto;
+    text-transform: uppercase;
     font-size: 30px;
     font-weight: 500;
   }

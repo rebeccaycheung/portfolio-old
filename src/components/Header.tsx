@@ -9,7 +9,7 @@ type HeaderProps = {
 const Header: FunctionComponent<HeaderProps> = ({ name, buttonText }) => {
     return (
         <HeaderStyle>
-            <NameTag>{ name.toUpperCase() }</NameTag>
+            <NameTag>{ name }</NameTag>
             <Toggle>{ buttonText }</Toggle>
         </HeaderStyle>
     )

@@ -2,6 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faAws, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faCode, faBreadSlice, faGraduationCap, faLeaf, faMagic, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faAws, faCode, faBreadSlice, faGraduationCap, faLeaf, faMagic, faEnvelope, faGithub, faLinkedin)
 
 ReactDOM.render(
   <React.StrictMode>
