@@ -1,11 +1,33 @@
 import styled from "styled-components";
 
+interface WidthProps {
+    width: number;
+}
+
+export const Width = styled.body<WidthProps>`
+    ${({ width }) => `width: ${width}px;`}
+`
+
 interface SpacingProps {
     space: number;
 }
 
 export const Spacing = styled.div<SpacingProps>`
     ${({ space }) => `padding: ${space}rem;`}
+`
+
+interface MarginProps {
+    marginLeft?: number;
+    marginRight?: number;
+    marginTop?: number;
+    marginBottom?: number;
+}
+
+export const Margin = styled.div<MarginProps>`
+    ${({ marginTop }) => marginTop ? `margin-top:${marginTop}px` : `margin-top:0px`};
+    ${({ marginLeft }) => marginLeft ? `margin-left:${marginLeft}px` : `margin-left:0px`};
+    ${({ marginRight }) => marginRight ? `margin-right:${marginRight}px` : `margin-right:0px`};
+    ${({ marginBottom }) => marginBottom ? `margin-bottom:${marginBottom}px` : `margin-bottom:0px`};
 `
 
 export const HeaderStyle = styled.div`
@@ -107,16 +129,22 @@ export const TimelineDescription = styled.div`
     text-align: left;
 `
 
-interface MarginProps {
-    marginLeft?: number;
-    marginRight?: number;
-    marginTop?: number;
-    marginBottom?: number;
-}
+export const SkillsContainer = styled(Tile)`
+    width: 60%;
+    float: right;
+`
 
-export const Margin = styled.div<MarginProps>`
-    ${({ marginTop }) => marginTop ? `margin-top:${marginTop}px` : `margin-top:0px`};
-    ${({ marginLeft }) => marginLeft ? `margin-left:${marginLeft}px` : `margin-left:0px`};
-    ${({ marginRight }) => marginRight ? `margin-right:${marginRight}px` : `margin-right:0px`};
-    ${({ marginBottom }) => marginBottom ? `margin-bottom:${marginBottom}px` : `margin-bottom:0px`};
+export const SkillItem = styled.div`
+    text-align: center;
+    padding-right: 60px;
+    text-transform: uppercase;
+    font-weight: 500;
+`
+
+export const SkillItemContainer = styled.div`
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 800px;
 `

@@ -15,7 +15,6 @@ export const GlobalStyles = createGlobalStyle`
     color: #1d1d1d;
     font-family: 'Roboto', 'Arial', 'san-serif';
     font-size: 12px;
-    width: 1000px;
   }
 
   h1 {
