@@ -4,7 +4,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faAws, faGithub, faLinkedin, faVuejs, faReact, faNodeJs, faCss3Alt, faHtml5, faJs } from '@fortawesome/free-brands-svg-icons';
-import { faCode, faBreadSlice, faGraduationCap, faLeaf, faMagic, faEnvelope, faMoon } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faBreadSlice, faGraduationCap, faLeaf, faMagic, faEnvelope, faMoon, faAlignLeft } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
   faAws,
@@ -23,6 +23,7 @@ library.add(
   faCss3Alt,
   faHtml5,
   faJs,
+  faAlignLeft,
 )
 
 ReactDOM.render(

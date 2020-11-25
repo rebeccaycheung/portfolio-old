@@ -7,6 +7,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Journey from './components/Journey';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -24,6 +25,10 @@ function App() {
           <Spacing space={2} />
         </Width>
         <Skills title="Skilled in" />
+        <Width width={1000}>
+          <Spacing space={2} />
+          <Projects title="Projects I've worked on" />
+        </Width>
       </>
     </ThemeProvider>
   );

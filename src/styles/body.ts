@@ -4,8 +4,10 @@ interface WidthProps {
     width: number;
 }
 
-export const Width = styled.body<WidthProps>`
+export const Width = styled.div<WidthProps>`
     ${({ width }) => `width: ${width}px;`}
+    margin: 0 auto;
+    clear: both;
 `
 
 interface SpacingProps {
@@ -147,4 +149,31 @@ export const SkillItemContainer = styled.div`
     align-items: center;
     flex-wrap: wrap;
     width: 800px;
+`
+
+export const ProjectsContainer = styled(Tile)`
+    border-radius: 10px 10px 0px 0px;
+`
+
+export const ProjectContainer = styled.div`
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+`
+
+export const ProjectItem = styled.div`
+    border-radius: 20px;
+    background-color: #F8F8F8;
+    text-transform: capitalize;
+    width: 225px;
+    padding: 10px;
+    height: 75px;
+`
+
+export const Tag = styled.div`
+    color: #818181;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 10px;
 `
