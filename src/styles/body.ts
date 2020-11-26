@@ -5,7 +5,7 @@ interface WidthProps {
 }
 
 export const Width = styled.div<WidthProps>`
-    ${({ width }) => `width: ${width}px;`}
+    ${({ width }) => `width: ${width}%;`}
     margin: 0 auto;
     clear: both;
 `
@@ -26,10 +26,10 @@ interface MarginProps {
 }
 
 export const Margin = styled.div<MarginProps>`
-    ${({ marginTop }) => marginTop ? `margin-top:${marginTop}px` : `margin-top:0px`};
-    ${({ marginLeft }) => marginLeft ? `margin-left:${marginLeft}px` : `margin-left:0px`};
-    ${({ marginRight }) => marginRight ? `margin-right:${marginRight}px` : `margin-right:0px`};
-    ${({ marginBottom }) => marginBottom ? `margin-bottom:${marginBottom}px` : `margin-bottom:0px`};
+    ${({ marginTop }) => marginTop ? `margin-top:${marginTop}%` : `margin-top:0px`};
+    ${({ marginLeft }) => marginLeft ? `margin-left:${marginLeft}%` : `margin-left:0px`};
+    ${({ marginRight }) => marginRight ? `margin-right:${marginRight}%` : `margin-right:0px`};
+    ${({ marginBottom }) => marginBottom ? `margin-bottom:${marginBottom}%` : `margin-bottom:0px`};
 `
 
 export const HeaderStyle = styled.div`
@@ -108,7 +108,7 @@ export const Timeline = styled.div`
 `
 
 export const Year = styled.div`
-    width: 200px;
+    width: 100%;
     border-right: 2px solid #707070;
     &:nth-child(1) {
         border-left: 2px solid #707070;
@@ -122,7 +122,7 @@ interface TimelineBarProps {
 
 export const TimelineBar = styled.div<TimelineBarProps>`
     ${({ color }) => `background-color: #${color};`}
-    ${({ width }) => `width: ${width}px;`}
+    ${({ width }) => `width: ${width}%;`}
     height: 12px;
     border-radius: 20px;
 `

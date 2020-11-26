@@ -18,7 +18,7 @@ const Journey: FunctionComponent<JourneyProps> = ({ title }) => {
                 <Year>2021</Year>
             </Timeline>
             <Spacing space={0.3} />
-            <TimelineBar width={700} color={'8FB996'} />
+            <TimelineBar width={70} color={'8FB996'} />
             <Spacing space={0.3} />
             <TimelineDescription>
                 <h3>Attended Monash University</h3>
@@ -26,8 +26,8 @@ const Journey: FunctionComponent<JourneyProps> = ({ title }) => {
                 <p>Double Major - Computer networks and security, Software development</p>
             </TimelineDescription>
             <Spacing space={1} />
-            <Margin marginLeft={300}>
-                <TimelineBar width={100} color={'415D43'} />
+            <Margin marginLeft={30}>
+                <TimelineBar width={14} color={'415D43'} />
                 <Spacing space={0.3} />
                 <TimelineDescription>
                     <h3>Industry Based Learning Student</h3>
@@ -35,8 +35,8 @@ const Journey: FunctionComponent<JourneyProps> = ({ title }) => {
                 </TimelineDescription>
             </Margin>
             <Spacing space={1} />
-            <Margin marginLeft={400}>
-                <TimelineBar width={300} color={'A1CCA5'} />
+            <Margin marginLeft={40}>
+                <TimelineBar width={50} color={'A1CCA5'} />
                 <Spacing space={0.3} />
                 <TimelineDescription>
                     <h3>Software Engineer</h3>
@@ -44,8 +44,8 @@ const Journey: FunctionComponent<JourneyProps> = ({ title }) => {
                 </TimelineDescription>
             </Margin>
             <Spacing space={1} />
-            <Margin marginLeft={700}>
-                <TimelineBar width={300} color={'A1CCA5'} />
+            <Margin marginLeft={70}>
+                <TimelineBar width={100} color={'A1CCA5'} />
                 <Spacing space={0.3} />
                 <TimelineDescription>
                     <h3>Associate Engineer</h3>

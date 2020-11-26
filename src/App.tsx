@@ -14,7 +14,7 @@ function App() {
     <ThemeProvider theme={lightTheme}>
       <>
         <GlobalStyles />
-        <Width width={1000}>
+        <Width width={80}>
           <Header name={"Rebecca Cheung"} buttonText={"Switch to dark mode"} />
           <Spacing space={2} />
           <About title={"Get to know me"} description={
@@ -25,7 +25,7 @@ function App() {
           <Spacing space={2} />
         </Width>
         <Skills title="Skilled in" />
-        <Width width={1000}>
+        <Width width={80}>
           <Spacing space={2} />
           <Projects title="Projects I've worked on" />
         </Width>
