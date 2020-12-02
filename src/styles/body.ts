@@ -153,22 +153,25 @@ export const SkillItemContainer = styled.div`
 
 export const ProjectsContainer = styled(Tile)`
     border-radius: 10px 10px 0px 0px;
+    padding-bottom: 100px;
 `
 
 export const ProjectContainer = styled.div`
     display: flex;
-    justify-items: space-between;
+    justify-items: center;
     align-items: center;
     flex-wrap: wrap;
 `
 
 export const ProjectItem = styled.div`
+    flex: 1 1 20%;
+    height: 75px;
     border-radius: 20px;
     background-color: #F8F8F8;
     text-transform: capitalize;
-    width: 225px;
-    padding: 10px;
-    height: 75px;
+    padding: 20px 25px;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
 `
 
 export const Tag = styled.div`
@@ -176,4 +179,17 @@ export const Tag = styled.div`
     font-weight: 500;
     text-transform: uppercase;
     font-size: 10px;
+    padding-right: 10px;
+`
+
+export const TagContainer = styled.div`
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+`
+
+export const Icon = styled.div`
+    margin-bottom: 20px;
+    color: #709775;
 `

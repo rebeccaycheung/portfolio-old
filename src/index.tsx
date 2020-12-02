@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faAws, faGithub, faLinkedin, faVuejs, faReact, faNodeJs, faCss3Alt, faHtml5, faJs } from '@fortawesome/free-brands-svg-icons';
+import { faAws, faGithub, faLinkedin, faVuejs, faReact, faNodeJs, faCss3Alt, faHtml5, faJs, faSwift } from '@fortawesome/free-brands-svg-icons';
 import { faCode, faBreadSlice, faGraduationCap, faLeaf, faMagic, faEnvelope, faMoon, faAlignLeft } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
@@ -24,6 +24,7 @@ library.add(
   faHtml5,
   faJs,
   faAlignLeft,
+  faSwift,
 )
 
 ReactDOM.render(
