@@ -163,14 +163,24 @@ export const ProjectContainer = styled.div`
     flex-wrap: wrap;
 `
 
-export const ProjectItem = styled.div`
-    flex: 1 1 20%;
-    height: 75px;
+export const ProjectItem = styled.button`
+    flex: 1 1 30%;
+    height: 30%;
+    border: none;
     border-radius: 20px;
     background-color: #F8F8F8;
     text-transform: capitalize;
-    padding: 20px 25px;
+    padding: 20px 30px;
     margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    cursor: pointer;
+`
+
+export const ProjectDescription = styled.div`
+    border-radius: 20px;
+    background-color: #F8F8F8;
+    padding: 30px;
     margin-bottom: 1.5rem;
 `
 
