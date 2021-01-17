@@ -18,7 +18,9 @@ function App() {
           <Header name={"Rebecca Cheung"} buttonText={"Switch to dark mode"} />
           <Spacing space={2} />
           <About title={"Get to know me"} description={
-            "I am passionate about developing software and designing sophisticated user interfaces. Currently, an associate engineer at NAB developing digital lending experiences to our customers. While I am not working, I am cooking or enjoying time with family and friends."
+            `Hi 👋
+            A little bit about me ~
+            I am passionate about developing software and designing elegant user interfaces. Currently, an associate engineer at NAB in the Business Lending sector specialising in UI development. Recently, I graduated from Monash University, achieving a Bachelors of Information Technology with a double major in Computer Networks and Security, and Software Development. In my spare time, apart from improving my technical capabilities, I am cooking or baking all sorts of goodies and finding out more ways to live a sustainable lifestyle.`
           }/>
           <Spacing space={2} />
           <Journey title="My journey so far" />
