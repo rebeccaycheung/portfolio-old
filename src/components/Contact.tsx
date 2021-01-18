@@ -14,12 +14,12 @@ const Contact: FunctionComponent<ContactProps> = ({ title }) => {
                 <FactsContainer>
                     <FontAwesomeIcon icon={["fab", "github"]} size="lg" />
                     <Spacing space={0.3}  />
-                    Github
+                    <a href="https://github.com/rebeccaycheung" rel="noreferrer" target="_blank">Github</a>
                 </FactsContainer>
                 <FactsContainer>
                     <FontAwesomeIcon icon={["fab", "linkedin"]} size="lg" />
                     <Spacing space={0.3}  />
-                    LinkedIn
+                    <a href="https://www.linkedin.com/in/rebeccaycheung/" rel="noreferrer" target="_blank">LinkedIn</a>
                 </FactsContainer>
                 <FactsContainer>
                     <FontAwesomeIcon icon="envelope" size="lg" />

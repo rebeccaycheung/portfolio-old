@@ -34,4 +34,9 @@ export const GlobalStyles = createGlobalStyle`
     margin-top: 0.3rem;
     margin-bottom: 0.3rem;
   }
+
+  a {
+    text-decoration: none;
+    color: #415D43;
+  }
 `
