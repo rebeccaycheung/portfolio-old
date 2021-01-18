@@ -26,7 +26,9 @@ function App() {
           <Journey title="My journey so far" />
           <Spacing space={2} />
         </Width>
-        <Skills title="Skilled in" />
+        <Width width={80}>
+          <Skills title="Skilled in" />
+        </Width>
         <Width width={80}>
           <Spacing space={2} />
           <Projects title="Projects I've worked on" />

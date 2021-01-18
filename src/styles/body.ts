@@ -132,8 +132,7 @@ export const TimelineDescription = styled.div`
 `
 
 export const SkillsContainer = styled(Tile)`
-    width: 60%;
-    float: right;
+    text-align: center;
 `
 
 export const SkillItem = styled.div`
@@ -145,10 +144,10 @@ export const SkillItem = styled.div`
 
 export const SkillItemContainer = styled.div`
     display: flex;
-    justify-items: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 800px;
+    margin-top: 1.5rem;
 `
 
 export const ProjectsContainer = styled(Tile)`

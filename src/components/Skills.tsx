@@ -30,11 +30,15 @@ const Skills: FunctionComponent<SkillsProps> = ({ title }) => {
                 </SkillItem>
                 <SkillItem>
                     <FontAwesomeIcon icon={["fab", "node-js"]} size="5x" />
-                    <p>NodeJs</p>
+                    <p>NodeJS</p>
                 </SkillItem>
                 <SkillItem>
                     <FontAwesomeIcon icon={["fab", "js"]} size="5x" />
-                    <p>Javascript</p>
+                    <p>TypeScript</p>
+                </SkillItem>
+                <SkillItem>
+                    <FontAwesomeIcon icon={["fab", "git-alt"]} size="5x" />
+                    <p>Git</p>
                 </SkillItem>
             </SkillItemContainer>
         </SkillsContainer>
