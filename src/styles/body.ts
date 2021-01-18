@@ -137,7 +137,10 @@ export const SkillsContainer = styled(Tile)`
 
 export const SkillItem = styled.div`
     text-align: center;
-    padding-right: 60px;
+    padding-right: 5rem;
+    &:last-child {
+        padding-right: 0rem;
+    }
     text-transform: uppercase;
     font-weight: 500;
 `
