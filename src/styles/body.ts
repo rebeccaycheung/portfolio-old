@@ -182,7 +182,7 @@ export const ProjectItem = styled.button`
 export const ProjectDescription = styled.div`
     border-radius: 20px;
     background-color: #F8F8F8;
-    padding: 30px;
+    padding: 30px 30px 0px 30px;
     margin-bottom: 1.5rem;
 `
 
@@ -204,4 +204,37 @@ export const TagContainer = styled.div`
 export const Icon = styled.div`
     margin-bottom: 20px;
     color: #709775;
+`
+
+export const StackContainer = styled.div`
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+`
+
+export const Stack = styled.div`
+    background-color: #ffffff;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    height: 200px;
+    margin-left: 2rem;
+    padding: 1rem 0.5rem 0rem 0.5rem;
+    text-align: center;
+    width: 60px;
+`
+
+interface StackIconProps {
+    backgroundColor: string;
+}
+
+export const StackIcon = styled.div<StackIconProps>`
+    ${({ backgroundColor }) => `background-color: #${backgroundColor};`}
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 10rem;
+    padding: 0.8rem;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto;
 `
